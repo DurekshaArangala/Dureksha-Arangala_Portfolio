@@ -1,0 +1,376 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+import { Project, SkillCategory, TimelineEvent, Certification } from './types';
+
+export const personalInfo = {
+  name: 'Dureksha Arangala',
+  title: 'Aspiring Data Scientist | BSc(Hons) in Data Science (Undergraduate)',
+  bio: [
+    "I'm Dureksha Arangala, a Final-Year BSc (Hons) in Data Science undergraduate at Sri Lanka Technology Campus (SLTC), passionate about Data Science, Artificial Intelligence, Machine Learning, and Data Analytics. I enjoy transforming data into actionable insights by building practical, data-driven solutions using Python, SQL, Machine Learning, Deep Learning, and NLP.",
+    "Beyond academics, I actively develop my leadership and teamwork skills as the Secretary of the IEEE Computer Society Student Branch Chapter at SLTC and through hackathons, research, and technical community activities. I am currently seeking a Data Scientist Internship where I can apply my technical skills, gain industry experience, and contribute to solving real-world business challenges through data."
+  ],
+  profileImage: '/src/assets/images/profile_dureksha_1784396217206.jpg',
+  cvImage: '/src/assets/images/cv_mockup_1784396234425.jpg',
+  stats: [
+    { label: 'Projects', value: '6+' },
+    { label: 'Achievements & Certifications', value: '5+' },
+    { label: 'Hackathons', value: '3+' },
+    { label: 'Leadership Roles', value: '10+' }
+  ],
+  socials: {
+    email: 'durekshachammi2911@gmail.com',
+    github: 'https://github.com/DurekshaArangala',
+    linkedin: 'https://www.linkedin.com/in/dureksha-arangala-03668019a/',
+    medium: 'https://medium.com/@durekshachammi2911'
+    
+  }
+};
+
+export const skillsData: SkillCategory[] = [
+  {
+    title: 'Languages',
+    icon: 'Code2',
+    skills: [
+      { name: 'Python', level: 70, label: 'Intermediate' },
+      { name: 'SQL', level: 60, label: 'Intermediate' },
+      { name: 'R', level: 50, label: 'Intermediate' },
+      { name: 'JavaScript', level: 30, label: 'Beginner' }
+    ]
+  },
+  {
+    title: 'ML / Deep Learning',
+    icon: 'BrainCircuit',
+    skills: [
+      { name: 'Scikit-learn', level: 80, label: 'Intermediate' },
+      { name: 'PyTorch', level: 60, label: 'Intermediate' },
+      { name: 'TensorFlow', level: 60, label: 'Intermediate' },
+      { name: 'Hugging Face', level: 30, label: 'Beginner' }
+    ]
+  },
+  {
+    title: 'Data & Cloud',
+    icon: 'Cloud',
+    skills: [
+      { name: 'Pandas / NumPy', level: 95, label: 'Advanced' },
+      { name: 'Power BI / Tableau', level: 95, label: 'Advanced' },
+      { name: 'Docker', level: 65, label: 'Intermediate' }
+    ]
+  },
+  {
+    title: 'MLOps & Tools',
+    icon: 'Workflow',
+    skills: [
+      { name: 'GitHub', level: 80, label: 'Intermediate' },
+      { name: 'MLflow', level: 75, label: 'Intermediate' },
+      { name: 'FastAPI', level: 70, label: 'Intermediate' },
+      { name: 'Airflow', level: 50, label: 'Beginner' }
+    ]
+  },
+  {
+    title: 'NLP / CV',
+    icon: 'Cpu',
+    skills: [
+      { name: 'Transformers', level: 20, label: 'Beginner' },
+      { name: 'spaCy / NLTK', level: 60, label: 'Intermediate' },
+      { name: 'OpenCV', level: 60, label: 'Intermediate' }
+    ]
+  },
+  {
+    title: 'Soft Skills',
+    icon: 'Users',
+    skills: [
+      { name: 'Problem Solving', level: 90, label: 'Advanced' },
+      { name: 'Analytical Thinking', level: 85, label: 'Advanced' },
+      { name: 'Teamwork & Leadership', level: 90, label: 'Advanced' },
+      { name: 'Project Management', level: 95, label: 'Advanced' },
+      { name: 'Adaptability & Continuous Learning', level: 90, label: 'Advanced' }
+    ]
+  }
+];
+
+export const educationTimeline: TimelineEvent[] = [
+  {
+    year: '2023 - PRESENT',
+    title: 'BSc. (Hons) Data Science',
+    organization: 'Sri Lanka Technology Campous (SLTC), Faculty of Computing & IT',
+    description: 'Building a strong foundation in Data Science, AI, and research through academic learning and hands-on projects.',
+  },
+  {
+    year: '2025 - PRESENT',
+    title: 'Secretary - IEEE Computer Society Student Branch Chapter of SLTC',
+    organization: '',
+    description: 'Managing chapter operations, documentation, and coordination activities to support technical initiatives and student programs.'
+    
+  },
+
+];
+
+export const experienceTimeline: TimelineEvent[] = [
+  {
+    year: '2025 - PRESENT',
+    title: 'Secretary - IEEE Computer Society Student Branch Chapter of SLTC',
+    organization: '',
+    description: 'Managing chapter operations, documentation, and coordination activities to support technical initiatives and student programs.',
+    details: [
+      'Preparing event proposals, agendas, reports, and meeting records',
+      'Supporting technical events, workshops, and student initiatives',
+      'Coordinating communication and documentation across chapter teams'
+    ]
+  }
+];
+
+export const volunteeringData = [
+
+  {
+    title: 'Coordinator - Nanasa (Ongoing), IEEE Young Professionals Sri Lanka Section',
+    description: 'Coordinating project activities, team communication, and operational tasks to support successful project execution.',
+    tag: 'Project Coordination'
+  },
+
+  
+  {title: 'Secretary Team Member - MASTER DESIGNER v3.0, Media Unit SLTC | 2026',
+    description: 'Supporting event documentation, coordination, and administrative operations.',
+    tag: 'Documentation'
+  }, 
+
+  {
+    title: 'Deputy Head - Logistics Team, ITIA Career v1.0 | 2025',
+    description: 'Coordinating logistics planning and operational activities to ensure smooth event execution.',
+    tag: 'Event Coordination'
+  },
+
+  {
+    title:'Editorial Deputy Head (Subcommittee | 2024-2025)',
+    description: 'Led editorial activities by reviewing and coordinating promotional content for IEEE CS SBC SLTC events.',
+    tag:'Editorial Leadership'
+  },
+  {
+    title: 'Content & Caption Team Head - Sipsari Yathra, LEO Club SLTC',
+    description: 'Leading content creation and social media communication strategies to enhance project visibility.',
+    tag: 'Content Creation'
+  },
+  
+  {
+    title: 'Program Team Member - Venturify Project | 2024',
+    description: 'Contributing to the planning and execution of innovation-focused programs and student development initiatives.',
+    tag: 'Program Management'
+  }
+];
+
+export const projectsData: Project[] = [
+  {
+    id: 'hate-speech-classification',
+    title: 'Hate Speech Classification - End-to-End NLP Pipeline',
+    description: 'Deep learning based NLP system for detecting hate speech using text preprocessing, model training, and deployment workflow.',
+    category: 'NLP',
+    tags: ['Python', 'NLP', 'TensorFlow', 'Deep Learning'],
+    metrics: [
+      { label: 'Pipeline', value: 'End-to-End' },
+      { label: 'Model Type', value: 'Deep Learning' }
+    ],
+    details: [
+      'Implemented complete NLP pipeline including data ingestion, preprocessing, transformation, and model training',
+      'Built text classification model using TensorFlow with automated training workflow',
+      'Developed deployment-ready structure with API integration capabilities'
+    ],
+    githubUrl: 'https://github.com/DurekshaArangala/End-to-End-NLP-Project_Hate-Speech-Classification',
+    liveUrl: '#'
+  },
+
+
+
+  {
+    id: 'customer-shopping-behavior-analysis',
+    title: 'Customer Shopping Behavior Analysis',
+    description: 'Data analytics project analyzing customer purchasing patterns and generating business insights through visualization.',
+    category: 'Data Analytics',
+    tags:['Python', 'Pandas', 'SQL', 'Power BI'],
+    metrics: [
+      { label: 'Analysis', value: 'Customer Insights' },
+      { label: 'Tools', value: 'Python + BI' }
+    ],
+    details: [
+      'Performed exploratory data analysis to identify customer purchasing trends',
+      'Used SQL-based analysis to extract business insights',
+      'Created interactive dashboards for data-driven decision making'
+    ],
+    githubUrl: 'https://github.com/DurekshaArangala/customer_shopping_behavior_analysis',
+    liveUrl: '#'
+  },
+
+
+
+  {
+    id: 'customer-demand-forecasting',
+    title: 'Customer Demand Forecasting System',
+    description: 'Machine learning system developed to predict future customer demand patterns for business planning.',
+    category: 'Machine Learning',
+    tags:['Python', 'Scikit-learn', 'Pandas', 'Machine Learning'],
+    metrics: [
+      { label: 'Model', value: 'ML Forecasting' },
+      { label: 'Workflow', value: 'End-to-End' }
+    ],
+    details: [
+      'Performed data preprocessing and exploratory analysis on demand data',
+      'Trained and evaluated machine learning models for demand prediction',
+      'Developed prediction workflow for future demand estimation'
+    ],
+    githubUrl: 'https://github.com/DurekshaArangala/Customer-Demand-Forecasting-System-',
+    liveUrl: '#'
+  },
+
+
+
+  {
+    id: 'ecommerce-bigdata-analytics',
+    title: 'E-Commerce Big Data Analytics Pipeline',
+    description: ' Big data analytics pipeline designed to process and analyze large-scale e-commerce data.',
+    category: 'Data Analytics',
+    tags: ['Python', 'Big Data', 'Data Pipeline', 'Analytics', 'Pyspark'],
+    metrics: [
+      { label: 'Pipeline', value: 'Data Processing' },
+      { label: 'Domain', value: 'E-Commerce' }
+    ],
+    details: [
+      'Designed data processing workflow for large-scale datasets',
+      'Applied analytics techniques to extract business insights',
+      'Explored scalable approaches for handling large data volumes'
+    ],
+    githubUrl: 'https://github.com/DurekshaArangala/ecommerce-bigdata-analytics-pipeline',
+    liveUrl: '#'
+  },
+
+
+
+  {
+    id: 'postpartum-depression-prediction',
+    title: 'Postpartum Depression Prediction and Recovery Support(Ongoing)',
+    description: 'AI-based healthcare support system combining machine learning and explainable AI approaches.',
+    category: 'Machine Learning',
+    tags: ['Python', 'Machine Learning', 'NLP', 'XAI'],
+    metrics: [
+      { label: 'Focus', value: 'Healthcare AI' },
+      { label: 'Approach', value: 'ML + XAI' }
+
+    ],
+    details: [
+      'Developing predictive models for postpartum depression risk assessment',
+      'Exploring explainable AI techniques for transparent predictions',
+      'Designing a user-focused recovery support application'
+
+    ],
+    githubUrl: 'https://github.com/DurekshaArangala/postpartum-depression-prediction-and-recovery',
+    liveUrl: '#'
+  },
+
+
+
+
+  {
+    id: 'smart-restaurant-menu',
+    title: 'Smart Restaurant Menu with AI Chatbot',
+    description: 'Interactive restaurant management system with chatbot-based customer assistance.',
+    category: 'Full Stack Development',
+    tags: ['React', 'Node.js', 'Firebase', 'Dialogflow'],
+    metrics: [
+      { label: 'Platform', value: 'Web Application' },
+      { label: 'AI', value: 'Chatbot Integration' }
+    ],
+    details: [
+      'Developed interactive digital restaurant menu interface',
+      'Integrated chatbot functionality for customer interaction',
+      'Implemented cloud-based backend services using Firebase'
+    ],
+    githubUrl: 'https://github.com/DurekshaArangala/smart-restaurant-menu',
+    liveUrl: '#'
+  },
+
+
+  {
+    id: 'smart-restaurant-menu',
+    title: 'Smart Restaurant Menu with AI Chatbot',
+    description: 'Interactive restaurant management system with chatbot-based customer assistance.',
+    category: 'Full Stack Development',
+    tags: ['React', 'Node.js', 'Firebase', 'Dialogflow'],
+    metrics: [
+      { label: 'Platform', value: 'Web Application' },
+      { label: 'AI', value: 'Chatbot Integration' }
+    ],
+    details: [
+      'Developed interactive digital restaurant menu interface',
+      'Integrated chatbot functionality for customer interaction',
+      'Implemented cloud-based backend services using Firebase'
+    ],
+    githubUrl: 'https://github.com/DurekshaArangala/smart-restaurant-menu',
+    liveUrl: '#'
+  },
+
+
+  {
+    id: 'smart-restaurant-menu',
+    title: 'Smart Restaurant Menu with AI Chatbot',
+    description: 'Interactive restaurant management system with chatbot-based customer assistance.',
+    category: 'Full Stack Development',
+    tags: ['React', 'Node.js', 'Firebase', 'Dialogflow'],
+    metrics: [
+      { label: 'Platform', value: 'Web Application' },
+      { label: 'AI', value: 'Chatbot Integration' }
+    ],
+    details: [
+      'Developed interactive digital restaurant menu interface',
+      'Integrated chatbot functionality for customer interaction',
+      'Implemented cloud-based backend services using Firebase'
+    ],
+    githubUrl: 'https://github.com/DurekshaArangala/smart-restaurant-menu',
+    liveUrl: '#'
+  }
+
+
+
+];
+
+export const certificationsData: Certification[] = [
+  {
+    id: 'data-science-101-ibm',
+    title: 'Data Science 101',
+    issuer: 'IBM SkillsBuild',
+    date: '2025',
+    credentialId: 'DL-AI-928374982',
+    link: 'https://coursera.org'
+  },
+  {
+    id: 'ieee-xtreme-19',
+    title: 'IEEE Xtreme Programming Competition 19.0 ',
+    issuer: 'IEEE',
+    date: '2025',
+    credentialId: 'TF-DEV-83940283',
+    link: 'https://credential.net'
+  },
+    {
+    id: 'inspihER-tech-v4-hacknova',
+    title: 'First Runner Up | InspiHER{Tech} V4.0 - HackNova Competition',
+    issuer: 'IEEE WIE, SLTC',
+    date: '2026',
+    credentialId: 'IBM-DS-73928402',
+    link: 'https://coursera.org'
+  },
+  {
+    id: 'biofusion-hackathon',
+    title: 'BioFusion Hackathon',
+    issuer: 'IEEE Engineering in Medicine and Biology Society (EMBS), USJP',
+    date: '2025',
+    credentialId: 'MS-AZ-DS-10293847',
+    link: 'https://learn.microsoft.com'
+  },
+  {
+    id: 'emerging-scholars-research',
+    title: 'Emerging Scholars Research Programme - Certificate Phase Completion',
+    issuer: 'Faculty of Postgraduate Studies & Research, SLTC',
+    date: '2025',
+    credentialId: 'GCP-ACE-98273419',
+    link: 'https://credential.net'
+  }
+];
