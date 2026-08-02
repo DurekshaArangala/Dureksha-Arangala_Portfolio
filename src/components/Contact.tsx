@@ -101,7 +101,7 @@ export default function Contact() {
               Connect
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif italic font-light text-neutral-900 dark:text-white leading-tight">
-              Let's talk
+              Let's Talk
             </h2>
             <p className="text-neutral-500 dark:text-[#A1A1AA] text-sm sm:text-base leading-relaxed max-w-md mx-auto lg:mx-0 font-light">
               Reach out for internships, collaborations, research discussions, or just to talk about data science and ML!

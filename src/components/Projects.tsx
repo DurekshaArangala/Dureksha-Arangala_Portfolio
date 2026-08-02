@@ -78,30 +78,38 @@ export default function Projects() {
                 className="group flex flex-col h-full bg-neutral-50 dark:bg-[#121214] border border-neutral-200 dark:border-zinc-800/80 rounded-none overflow-hidden shadow-sm hover:border-purple-300 dark:hover:border-purple-900/60 transition-all cursor-pointer"
                 onClick={() => setActiveProject(project)}
               >
-                {/* Project Image Header */}
-                <div className="relative h-44 overflow-hidden bg-neutral-200 dark:bg-zinc-900">
-
-                <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                loading="lazy"
-                />
-
-              {/* Image Overlay */}
-              <div className="absolute inset-0 bg-black/20" />
-
-              {/* Category Badge */}
-              <div className="absolute top-4 right-4 border border-purple-200 dark:border-purple-900/30 bg-purple-50/95 dark:bg-purple-950/90 text-[9px] font-mono uppercase tracking-widest text-purple-700 dark:text-purple-300 px-2.5 py-1">
-              {project.category}
-              </div>
-
-              </div>
+                {/* Visual Placeholder Header - Desaturated Modern Tech Card Header */}
+                <div className="relative h-44 bg-neutral-200 dark:bg-zinc-900 flex items-center justify-center p-6 text-neutral-900 dark:text-white">
+                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_-20%,#F3E8FF,transparent)] dark:bg-[radial-gradient(circle_at_50%_-20%,#2D1B4E,transparent)] opacity-60" />
+                  
 
                  
+                  {/* Project Image */}
+                  <div className="relative h-44 overflow-hidden">
+                  <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  loading="lazy"
+                  />
+
+                  {/* Category icon overlay background */}
+                  <div className="absolute top-4 right-4 border border-purple-200 dark:border-purple-900/30 bg-purple-50/95 dark:bg-purple-950/90 text-[9px] font-mono uppercase tracking-widest text-purple-700 dark:text-purple-300 px-2.5 py-1">
+                    {project.category}
+                  </div>
 
 
-                  
+
+                  {/* Centered abstract graphics layout */}
+                  <div className="text-center">
+                    <span className="text-lg font-bold tracking-widest font-mono text-neutral-700 dark:text-white uppercase block">
+                      {`[ ${project.category.slice(0, 3).toUpperCase()} ]`}
+                    </span>
+                    <span className="text-[9px] text-neutral-400 dark:text-[#71717A] mt-1.5 font-mono uppercase tracking-wider block">
+                      project screenshot
+                    </span>
+                  </div>
+                </div>
 
                 {/* Content body */}
                 <div className="flex flex-col flex-grow p-6 sm:p-8">
