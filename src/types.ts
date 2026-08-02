@@ -6,7 +6,7 @@
 export interface Project {
   id: string;
   title: string;
-  image: String;
+  image: string;
   description: string;
   category: 'Machine Learning' | 'NLP' | 'Computer Vision' | 'Data Analytics';
   tags: string[];
