@@ -197,6 +197,7 @@ export const projectsData: Project[] = [
     id: 'customer-shopping-behavior-analysis',
     title: 'Customer Shopping Behavior Analysis',
     description: 'Data analytics project analyzing customer purchasing patterns and generating business insights through visualization.',
+    image : "/images/customer-shopping-behavior-analysis.png",
     category: 'Data Analytics',
     tags:['Python', 'Pandas', 'SQL', 'Power BI'],
     metrics: [
@@ -215,6 +216,7 @@ export const projectsData: Project[] = [
   {
     id: 'ecommerce-bigdata-analytics',
     title: 'E-Commerce Big Data Analytics Pipeline',
+    image: "/images/ecommerce-bigdata-analytics.png",
     description: ' Big data analytics pipeline designed to process and analyze large-scale e-commerce data.',
     category: 'Data Analytics',
     tags: ['Python', 'Big Data', 'Data Pipeline', 'Analytics', 'Pyspark'],
@@ -236,6 +238,7 @@ export const projectsData: Project[] = [
   {
     id: 'customer-demand-forecasting',
     title: 'Customer Demand Forecasting System',
+    image: "/images/customer-shopping-behavior-analysis.png",
     description: 'Machine learning system developed to predict future customer demand patterns for business planning.',
     category: 'Machine Learning',
     tags:['Python', 'Scikit-learn', 'Pandas', 'Machine Learning'],
@@ -257,6 +260,7 @@ export const projectsData: Project[] = [
   {
     id: 'postpartum-depression-prediction',
     title: 'Postpartum Depression Prediction and Recovery Support(Ongoing)',
+    image: "/images/customer-shopping-behavior-analysis.png",
     description: 'AI-based healthcare support system combining machine learning and explainable AI approaches.',
     category: 'Machine Learning',
     tags: ['Python', 'Machine Learning', 'NLP', 'XAI'],
@@ -280,8 +284,9 @@ export const projectsData: Project[] = [
   {
     id: 'telecom-churn-mlops',
     title: 'End-to-End MLOps Pipeline for Telecom Customer Churn Prediction',
+    image: "/images/customer-shopping-behavior-analysis.png",
     description: 'A production-ready MLOps solution for predicting telecom customer churn using machine learning, automated pipelines, experiment tracking, model versioning, and REST API deployment.',
-    category: 'Machine Learning & MLOps',
+    category: 'Machine Learning',
     tags: ['Python','Scikit-learn','MLflow','DVC','Apache Airflow',
     'FastAPI',
     'Docker',
@@ -311,6 +316,7 @@ export const projectsData: Project[] = [
   {
     id: 'smart-restaurant-menu',
     title: 'Smart Restaurant Menu with AI Chatbot',
+    image: "/images/customer-shopping-behavior-analysis.png",
     description: 'Interactive restaurant management system with chatbot-based customer assistance.',
     category: 'Full Stack Development',
     tags: ['React', 'Node.js', 'Firebase', 'Dialogflow'],
