@@ -174,7 +174,7 @@ export const projectsData: Project[] = [
   {
     id: 'hate-speech-classification',
     title: 'Hate Speech Classification - End-to-End NLP Pipeline',
-    image: '/images/projects/hate-speech-classification.png',
+    image: '/images/hate-speech-classification.png',
     description: 'Deep learning based NLP system for detecting hate speech using text preprocessing, model training, and deployment workflow.',
     category: 'NLP',
     tags: ['Python', 'NLP', 'TensorFlow', 'Deep Learning'],
