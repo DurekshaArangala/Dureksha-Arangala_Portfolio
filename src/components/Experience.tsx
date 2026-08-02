@@ -150,7 +150,7 @@ export default function Experience() {
                 {/* Download PDF button - styled with sharp modern rectangle */}
                 <a
                   id="cv-download-link"
-                  href="images/Dureksha_ArangalaCV.pdf"
+                  href="/images/Dureksha_ArangalaCV.pdf"
                   download="Dureksha_Arangala_Data_Science_CV.pdf"
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 bg-purple-600 dark:bg-purple-500 text-white dark:text-white font-mono font-bold uppercase tracking-widest text-[10px] rounded-none hover:bg-purple-700 dark:hover:bg-purple-600 hover:-translate-y-0.5 transition-all border border-purple-600 dark:border-purple-500"
                 >

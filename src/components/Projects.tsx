@@ -81,33 +81,30 @@ export default function Projects() {
                 {/* Visual Placeholder Header - Desaturated Modern Tech Card Header */}
                 <div className="relative h-44 bg-neutral-200 dark:bg-zinc-900 flex items-center justify-center p-6 text-neutral-900 dark:text-white">
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_-20%,#F3E8FF,transparent)] dark:bg-[radial-gradient(circle_at_50%_-20%,#2D1B4E,transparent)] opacity-60" />
-                  
 
-                 
                   {/* Project Image */}
                   <div className="relative h-44 overflow-hidden">
-                  <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  loading="lazy"
-                  />
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      loading="lazy"
+                    />
 
-                  {/* Category icon overlay background */}
-                  <div className="absolute top-4 right-4 border border-purple-200 dark:border-purple-900/30 bg-purple-50/95 dark:bg-purple-950/90 text-[9px] font-mono uppercase tracking-widest text-purple-700 dark:text-purple-300 px-2.5 py-1">
-                    {project.category}
-                  </div>
+                    {/* Category icon overlay background */}
+                    <div className="absolute top-4 right-4 border border-purple-200 dark:border-purple-900/30 bg-purple-50/95 dark:bg-purple-950/90 text-[9px] font-mono uppercase tracking-widest text-purple-700 dark:text-purple-300 px-2.5 py-1">
+                      {project.category}
+                    </div>
 
-
-
-                  {/* Centered abstract graphics layout */}
-                  <div className="text-center">
-                    <span className="text-lg font-bold tracking-widest font-mono text-neutral-700 dark:text-white uppercase block">
-                      {`[ ${project.category.slice(0, 3).toUpperCase()} ]`}
-                    </span>
-                    <span className="text-[9px] text-neutral-400 dark:text-[#71717A] mt-1.5 font-mono uppercase tracking-wider block">
-                      project screenshot
-                    </span>
+                    {/* Centered abstract graphics layout */}
+                    <div className="text-center">
+                      <span className="text-lg font-bold tracking-widest font-mono text-neutral-700 dark:text-white uppercase block">
+                        {`[ ${project.category.slice(0, 3).toUpperCase()} ]`}
+                      </span>
+                      <span className="text-[9px] text-neutral-400 dark:text-[#71717A] mt-1.5 font-mono uppercase tracking-wider block">
+                        project screenshot
+                      </span>
+                    </div>
                   </div>
                 </div>
 
@@ -277,7 +274,7 @@ export default function Projects() {
                       href={activeProject.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 px-6 py-3 border border-purple-200 dark:border-purple-900/40 text-purple-750 dark:text-purple-300 text-[10px] font-mono font-bold uppercase tracking-wider rounded-none hover:bg-purple-50 dark:hover:bg-purple-950/20 transition-colors"
+                      className="inline-flex items-center gap-1.5 px-6 py-3 border border-purple-200 dark:border-purple-900/40 text-purple-700 dark:text-purple-300 text-[10px] font-mono font-bold uppercase tracking-wider rounded-none hover:bg-purple-50 dark:hover:bg-purple-950/20 transition-colors"
                     >
                       <Github className="w-3.5 h-3.5" />
                       GitHub Repository
@@ -289,7 +286,7 @@ export default function Projects() {
                     onClick={(e) => activeProject.liveUrl === '#' && e.preventDefault()}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 px-6 py-3 bg-purple-600 dark:bg-purple-500 text-white dark:text-white text-[10px] font-mono font-bold uppercase tracking-wider rounded-none hover:bg-purple-750 dark:hover:bg-purple-600 transition-colors"
+                    className="inline-flex items-center gap-1.5 px-6 py-3 bg-purple-600 dark:bg-purple-500 text-white dark:text-white text-[10px] font-mono font-bold uppercase tracking-wider rounded-none hover:bg-purple-700 dark:hover:bg-purple-600 transition-colors"
                   >
                     <ExternalLink className="w-3.5 h-3.5" />
                     Live Demo
