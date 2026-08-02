@@ -12,8 +12,8 @@ export const personalInfo = {
     "I'm Dureksha Arangala, a Final-Year BSc (Hons) in Data Science undergraduate at Sri Lanka Technology Campus (SLTC), passionate about Data Science, Artificial Intelligence, Machine Learning, and Data Analytics. I enjoy transforming data into actionable insights by building practical, data-driven solutions using Python, SQL, Machine Learning, Deep Learning, and NLP.",
     "Beyond academics, I actively develop my leadership and teamwork skills as the Secretary of the IEEE Computer Society Student Branch Chapter at SLTC and through hackathons, research, and technical community activities. I am currently seeking a Data Scientist Internship where I can apply my technical skills, gain industry experience, and contribute to solving real-world business challenges through data."
   ],
-  profileImage: '/src/assets/images/Arangala_Dureksha.jpeg',
-  cvImage: '/src/assets/images/CVDownload.jpeg',
+  profileImage: '/images/Arangala_Dureksha.jpeg',
+  cvImage: '/images/CVDownload.jpeg',
   stats: [
     { label: 'Projects', value: '6+' },
     { label: 'Achievements & Certifications', value: '5+' },
@@ -300,7 +300,7 @@ export const projectsData: Project[] = [
        'Integrated Git, Docker, DVC, MLflow, and DAGsHub to create a production-ready machine learning workflow.'
   ],
     
-    githubUrl: 'https://github.com/DurekshaArangala/smart-restaurant-menu',
+    githubUrl: 'https://dagshub.com/DUREKSHA-758/MLOps_Churn_Project',
     liveUrl: '#'
   }, 
 
