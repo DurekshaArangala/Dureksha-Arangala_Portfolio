@@ -9,8 +9,9 @@ export const personalInfo = {
   name: 'Dureksha Arangala',
   title: 'Aspiring Data Scientist | BSc(Hons) in Data Science (Undergraduate)',
   bio: [
-    "I'm Dureksha Arangala, a Final-Year BSc (Hons) in Data Science undergraduate at Sri Lanka Technology Campus (SLTC), passionate about Data Science, Artificial Intelligence, Machine Learning, and Data Analytics. I enjoy transforming data into actionable insights by building practical, data-driven solutions using Python, SQL, Machine Learning, Deep Learning, and NLP.",
-    "Beyond academics, I actively develop my leadership and teamwork skills as the Secretary of the IEEE Computer Society Student Branch Chapter at SLTC and through hackathons, research, and technical community activities. I am currently seeking a Data Scientist Internship where I can apply my technical skills, gain industry experience, and contribute to solving real-world business challenges through data."
+    "I'm Dureksha Arangala, a Final-Year BSc (Hons) Data Science undergraduate at Sri Lanka Technology Campus (SLTC), passionate about Data Science, Artificial Intelligence, Machine Learning, and Data Analytics. I enjoy transforming complex data into meaningful insights by developing practical, data-driven solutions using Python, SQL, Machine Learning, Deep Learning, and Natural Language Processing.",
+    "Beyond academics, I actively strengthen my leadership, collaboration, and problem-solving skills through my role as the Secretary of the IEEE Computer Society Student Branch Chapter at SLTC, as well as through hackathons, research activities, and technical community involvement. These experiences have helped me develop both technical expertise and the ability to work effectively in diverse teams.",
+    "I am currently seeking a Data Scientist Internship opportunity where I can apply my analytical and technical skills, gain industry experience, contribute to impactful projects, and continue growing as a Data Scientist while solving real-world challenges through data-driven innovation."
   ],
   profileImage: '/images/Arangala_Dureksha.jpeg',
   cvImage: '/images/CVDownload.jpeg',
@@ -73,7 +74,7 @@ export const skillsData: SkillCategory[] = [
     title: 'NLP / CV',
     icon: 'Cpu',
     skills: [
-      { name: 'Transformers', level: 20, label: 'Beginner' },
+      
       { name: 'spaCy / NLTK', level: 60, label: 'Intermediate' },
       { name: 'OpenCV', level: 60, label: 'Intermediate' }
     ]
