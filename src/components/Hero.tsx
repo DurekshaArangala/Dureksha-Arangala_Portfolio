@@ -59,7 +59,7 @@ export default function Hero({ onContactClick }: HeroProps) {
               transition={{ duration: 0.5 }}
               className="inline-block mb-6 px-4 py-1.5 border border-purple-200 dark:border-purple-900/30 bg-purple-50/30 dark:bg-purple-950/10 rounded-full text-[10px] uppercase tracking-widest text-purple-700 dark:text-purple-300 font-mono font-medium"
             >
-              Available for Internships & Projects
+              Available for Internships
             </motion.div>
 
             <motion.h1
@@ -156,7 +156,7 @@ export default function Hero({ onContactClick }: HeroProps) {
                 {/* Floating tech pill */}
                 <div className="absolute -bottom-2 right-4 bg-white dark:bg-black border border-purple-200 dark:border-purple-950/40 px-4 py-2 rounded-full shadow-md flex items-center gap-2 z-10">
                   <div className="w-1.5 h-1.5 bg-purple-600 dark:bg-purple-400 rotate-45 animate-pulse" />
-                  <span className="text-[10px] uppercase tracking-widest font-mono font-semibold text-purple-700 dark:text-purple-300">Analyzing Data</span>
+                  <span className="text-[10px] uppercase tracking-widest font-mono font-semibold text-purple-700 dark:text-purple-300"> Open to Work </span>
                 </div>
               </div>
 
@@ -200,7 +200,7 @@ export default function Hero({ onContactClick }: HeroProps) {
                     className="w-10 h-10 border border-neutral-200 dark:border-[#27272A] bg-white dark:bg-black text-neutral-500 dark:text-neutral-400 hover:text-purple-600 dark:hover:text-purple-400 hover:border-purple-300 dark:hover:border-purple-900 flex items-center justify-center transition-colors text-lg"
                     aria-label="Email"
                   >
-                    📧
+                    🖂
                   </a>
                   <a
                     id="hero-social-medium"

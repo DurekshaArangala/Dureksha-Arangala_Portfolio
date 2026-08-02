@@ -12,8 +12,8 @@ export const personalInfo = {
     "I'm Dureksha Arangala, a Final-Year BSc (Hons) in Data Science undergraduate at Sri Lanka Technology Campus (SLTC), passionate about Data Science, Artificial Intelligence, Machine Learning, and Data Analytics. I enjoy transforming data into actionable insights by building practical, data-driven solutions using Python, SQL, Machine Learning, Deep Learning, and NLP.",
     "Beyond academics, I actively develop my leadership and teamwork skills as the Secretary of the IEEE Computer Society Student Branch Chapter at SLTC and through hackathons, research, and technical community activities. I am currently seeking a Data Scientist Internship where I can apply my technical skills, gain industry experience, and contribute to solving real-world business challenges through data."
   ],
-  profileImage: '/src/assets/images/profile_dureksha_1784396217206.jpg',
-  cvImage: '/src/assets/images/cv_mockup_1784396234425.jpg',
+  profileImage: '/src/assets/images/Arangala_Dureksha.jpeg',
+  cvImage: '/src/assets/images/CVDownload.jpeg',
   stats: [
     { label: 'Projects', value: '6+' },
     { label: 'Achievements & Certifications', value: '5+' },
@@ -99,10 +99,10 @@ export const educationTimeline: TimelineEvent[] = [
     description: 'Building a strong foundation in Data Science, AI, and research through academic learning and hands-on projects.',
   },
   {
-    year: '2025 - PRESENT',
-    title: 'Secretary - IEEE Computer Society Student Branch Chapter of SLTC',
-    organization: '',
-    description: 'Managing chapter operations, documentation, and coordination activities to support technical initiatives and student programs.'
+    year: '2021',
+    title: 'GCE Advanced Level (A/L)',
+    organization: 'WP/JAYA/P/Dharmapala Vidyalaya',
+    description: 'Biological Science Stream (Biology, Physics, Chemistry)'
     
   },
 
@@ -111,15 +111,24 @@ export const educationTimeline: TimelineEvent[] = [
 export const experienceTimeline: TimelineEvent[] = [
   {
     year: '2025 - PRESENT',
-    title: 'Secretary - IEEE Computer Society Student Branch Chapter of SLTC',
-    organization: '',
-    description: 'Managing chapter operations, documentation, and coordination activities to support technical initiatives and student programs.',
+    title: 'Advisory Panel (Secretary)',
+    organization: 'IEEE Computer Society Student Branch Chapter of SLTC',
+    description: 'Reviewing chapter operations, documentation, and coordination activities to support technical initiatives and student programs.',
     details: [
       'Preparing event proposals, agendas, reports, and meeting records',
       'Supporting technical events, workshops, and student initiatives',
       'Coordinating communication and documentation across chapter teams'
     ]
+  },
+   {
+    year: '2024 - 2025',
+    title: 'Editorial Deputy Head (Subcommittee)',
+    organization: 'IEEE Computer Society Student Branch Chapter of SLTC',
+    description: 'Managed chapter operations, documentation, and coordination activities to support technical initiatives and student programs.',
+   
   }
+
+
 ];
 
 export const volunteeringData = [
@@ -143,9 +152,9 @@ export const volunteeringData = [
   },
 
   {
-    title:'Editorial Deputy Head (Subcommittee | 2024-2025)',
-    description: 'Led editorial activities by reviewing and coordinating promotional content for IEEE CS SBC SLTC events.',
-    tag:'Editorial Leadership'
+    title:'Secretary - CloudSpace v1.0',
+    description: 'Coordinated event planning and managed organizational activities',
+    tag: 'Editorial Leadeship'
   },
   {
     title: 'Content & Caption Team Head - Sipsari Yathra, LEO Club SLTC',
@@ -201,6 +210,25 @@ export const projectsData: Project[] = [
     liveUrl: '#'
   },
 
+  {
+    id: 'ecommerce-bigdata-analytics',
+    title: 'E-Commerce Big Data Analytics Pipeline',
+    description: ' Big data analytics pipeline designed to process and analyze large-scale e-commerce data.',
+    category: 'Data Analytics',
+    tags: ['Python', 'Big Data', 'Data Pipeline', 'Analytics', 'Pyspark'],
+    metrics: [
+      { label: 'Pipeline', value: 'Data Processing' },
+      { label: 'Domain', value: 'E-Commerce' }
+    ],
+    details: [
+      'Designed data processing workflow for large-scale datasets',
+      'Applied analytics techniques to extract business insights',
+      'Explored scalable approaches for handling large data volumes'
+    ],
+    githubUrl: 'https://github.com/DurekshaArangala/ecommerce-bigdata-analytics-pipeline',
+    liveUrl: '#'
+  },
+
 
 
   {
@@ -219,27 +247,6 @@ export const projectsData: Project[] = [
       'Developed prediction workflow for future demand estimation'
     ],
     githubUrl: 'https://github.com/DurekshaArangala/Customer-Demand-Forecasting-System-',
-    liveUrl: '#'
-  },
-
-
-
-  {
-    id: 'ecommerce-bigdata-analytics',
-    title: 'E-Commerce Big Data Analytics Pipeline',
-    description: ' Big data analytics pipeline designed to process and analyze large-scale e-commerce data.',
-    category: 'Data Analytics',
-    tags: ['Python', 'Big Data', 'Data Pipeline', 'Analytics', 'Pyspark'],
-    metrics: [
-      { label: 'Pipeline', value: 'Data Processing' },
-      { label: 'Domain', value: 'E-Commerce' }
-    ],
-    details: [
-      'Designed data processing workflow for large-scale datasets',
-      'Applied analytics techniques to extract business insights',
-      'Explored scalable approaches for handling large data volumes'
-    ],
-    githubUrl: 'https://github.com/DurekshaArangala/ecommerce-bigdata-analytics-pipeline',
     liveUrl: '#'
   },
 
@@ -268,45 +275,35 @@ export const projectsData: Project[] = [
 
 
 
-
   {
-    id: 'smart-restaurant-menu',
-    title: 'Smart Restaurant Menu with AI Chatbot',
-    description: 'Interactive restaurant management system with chatbot-based customer assistance.',
-    category: 'Full Stack Development',
-    tags: ['React', 'Node.js', 'Firebase', 'Dialogflow'],
+    id: 'telecom-churn-mlops',
+    title: 'End-to-End MLOps Pipeline for Telecom Customer Churn Prediction',
+    description: 'A production-ready MLOps solution for predicting telecom customer churn using machine learning, automated pipelines, experiment tracking, model versioning, and REST API deployment.',
+    category: 'Machine Learning & MLOps',
+    tags: ['Python','Scikit-learn','MLflow','DVC','Apache Airflow',
+    'FastAPI',
+    'Docker',
+    'DAGsHub',
+    'Git'],
+
     metrics: [
-      { label: 'Platform', value: 'Web Application' },
-      { label: 'AI', value: 'Chatbot Integration' }
+        { label: 'Dataset', value: '7,043 Customers' },
+        { label: 'Models', value: '3 ML Models' },
+        {label: 'Best Model', value: 'Logistic Regression' }
     ],
     details: [
-      'Developed interactive digital restaurant menu interface',
-      'Integrated chatbot functionality for customer interaction',
-      'Implemented cloud-based backend services using Firebase'
-    ],
+      'Built an end-to-end MLOps pipeline for telecom customer churn prediction, covering data ingestion, preprocessing, model training, evaluation, and deployment.',
+      'Implemented automated data and model versioning using DVC with DAGsHub remote storage.',
+       'Tracked machine learning experiments, metrics, parameters, and model artifacts using MLflow.',
+        'Orchestrated the complete ML workflow with Apache Airflow for reproducible and automated pipeline execution.',
+        'Developed a FastAPI REST API to serve real-time churn predictions and containerized the application using Docker.',
+       'Integrated Git, Docker, DVC, MLflow, and DAGsHub to create a production-ready machine learning workflow.'
+  ],
+    
     githubUrl: 'https://github.com/DurekshaArangala/smart-restaurant-menu',
     liveUrl: '#'
-  },
+  }, 
 
-
-  {
-    id: 'smart-restaurant-menu',
-    title: 'Smart Restaurant Menu with AI Chatbot',
-    description: 'Interactive restaurant management system with chatbot-based customer assistance.',
-    category: 'Full Stack Development',
-    tags: ['React', 'Node.js', 'Firebase', 'Dialogflow'],
-    metrics: [
-      { label: 'Platform', value: 'Web Application' },
-      { label: 'AI', value: 'Chatbot Integration' }
-    ],
-    details: [
-      'Developed interactive digital restaurant menu interface',
-      'Integrated chatbot functionality for customer interaction',
-      'Implemented cloud-based backend services using Firebase'
-    ],
-    githubUrl: 'https://github.com/DurekshaArangala/smart-restaurant-menu',
-    liveUrl: '#'
-  },
 
 
   {
