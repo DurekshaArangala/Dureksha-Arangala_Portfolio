@@ -38,7 +38,7 @@ export const skillsData: SkillCategory[] = [
       { name: 'Python', level: 70, label: 'Intermediate' },
       { name: 'SQL', level: 60, label: 'Intermediate' },
       { name: 'R', level: 50, label: 'Intermediate' },
-      { name: 'JavaScript', level: 30, label: 'Beginner' }
+      { name: 'JavaScript', level: 20, label: 'Beginner' }
     ]
   },
   {
@@ -174,6 +174,7 @@ export const projectsData: Project[] = [
   {
     id: 'hate-speech-classification',
     title: 'Hate Speech Classification - End-to-End NLP Pipeline',
+    image: '/images/projects/hate-speech-classification.png',
     description: 'Deep learning based NLP system for detecting hate speech using text preprocessing, model training, and deployment workflow.',
     category: 'NLP',
     tags: ['Python', 'NLP', 'TensorFlow', 'Deep Learning'],

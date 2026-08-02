@@ -15,6 +15,7 @@ const categories: ('All' | 'Machine Learning' | 'NLP' | 'Big Data' | 'Data Analy
   'NLP',
   'Big Data',
   'Data Analytics',
+  
 ];
 
 export default function Projects() {
@@ -33,13 +34,13 @@ export default function Projects() {
         {/* Section Heading */}
         <div className="text-center mb-12">
           <span className="text-[10px] uppercase tracking-widest text-purple-600 dark:text-purple-400 font-mono font-medium block mb-2">
-            Portfolio
+            Projects
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif italic font-light text-neutral-900 dark:text-white">
             Featured work
           </h2>
           <p className="text-neutral-500 dark:text-[#A1A1AA] mt-4 max-w-2xl mx-auto text-sm sm:text-base font-light">
-            A mix of coursework, hackathon builds, and independent research. Click any card for details.
+            A collection of Data Science projects, hackathon builds, and independent research. Explore my work and discover the solutions I've developed.Click any card for details.
           </p>
         </div>
 
@@ -81,10 +82,23 @@ export default function Projects() {
                 <div className="relative h-44 bg-neutral-200 dark:bg-zinc-900 flex items-center justify-center p-6 text-neutral-900 dark:text-white">
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_-20%,#F3E8FF,transparent)] dark:bg-[radial-gradient(circle_at_50%_-20%,#2D1B4E,transparent)] opacity-60" />
                   
+
+                 
+                   {/* Project Image */}
+                   <div className="relative h-44 overflow-hidden">
+                   <img
+                   src={project.image}
+                   alt={project.title}
+                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                   loading="lazy"
+                   />
+
                   {/* Category icon overlay background */}
                   <div className="absolute top-4 right-4 border border-purple-200 dark:border-purple-900/30 bg-purple-50/95 dark:bg-purple-950/90 text-[9px] font-mono uppercase tracking-widest text-purple-700 dark:text-purple-300 px-2.5 py-1">
                     {project.category}
                   </div>
+
+
 
                   {/* Centered abstract graphics layout */}
                   <div className="text-center">
