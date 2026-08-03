@@ -343,39 +343,39 @@ export const certificationsData: Certification[] = [
     title: 'Data Science 101',
     issuer: 'IBM SkillsBuild',
     date: '2025',
-    credentialId: 'DL-AI-928374982',
-    link: 'https://coursera.org'
+    credentialId: '',
+    link: '/images/certificates/Data Science 101.jpeg'
   },
   {
     id: 'ieee-xtreme-19',
     title: 'IEEE Xtreme Programming Competition 19.0 ',
     issuer: 'IEEE',
     date: '2025',
-    credentialId: 'TF-DEV-83940283',
-    link: 'https://credential.net'
+    credentialId: '',
+    link: '/images/certificates/IEEEXtreme 19.0.jpeg'
   },
     {
     id: 'inspihER-tech-v4-hacknova',
     title: 'First Runner Up | InspiHER{Tech} V4.0 - HackNova Competition',
     issuer: 'IEEE WIE, SLTC',
     date: '2026',
-    credentialId: 'IBM-DS-73928402',
-    link: 'https://coursera.org'
+    credentialId: '',
+    link: '/images/certificates/Inspiher_v4.0.jpeg'
   },
   {
     id: 'biofusion-hackathon',
     title: 'BioFusion Hackathon',
     issuer: 'IEEE Engineering in Medicine and Biology Society (EMBS), USJP',
     date: '2025',
-    credentialId: 'MS-AZ-DS-10293847',
-    link: 'https://learn.microsoft.com'
+    credentialId: '',
+    link: '/images/certificates/Biofusion Hackthon.jpeg'
   },
   {
     id: 'emerging-scholars-research',
     title: 'Emerging Scholars Research Programme - Certificate Phase Completion',
     issuer: 'Faculty of Postgraduate Studies & Research, SLTC',
     date: '2025',
-    credentialId: 'GCP-ACE-98273419',
-    link: 'https://credential.net'
+    credentialId: '',
+    link: "/images/certificates/Emerging Scholars's Research Programme.jpeg"
   }
 ];
